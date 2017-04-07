@@ -1,0 +1,69 @@
+/*Fixed CSS*/
+nav ul a:hover {
+  background-color: rgba(224, 227, 81, 0.75) !important;
+}
+.container-nav {
+  width: 90% !important;
+  margin: 0 auto;
+}
+#navigasi{
+  background: #FCFCFC;
+  position: fixed;
+  z-index: 10;
+}
+body{
+  background: #FCFCFC;
+}
+.icon-logo{
+  height: 45px;
+  width: auto;
+  margin-top: 8px;
+}
+.icon-menu{
+  margin-top: 10px;
+}
+.side-nav li a{
+  font-weight: normal;
+}
+.collapsible-body{
+  padding: 0px 0 5px 20px !important;
+}
+
+@font-face {
+  font-family: roboto-light;
+  src: url('materialize/fonts/roboto/Roboto-Light.ttf');
+}
+ul.pagination>li.active a{
+  background: #009688 !important;
+}
+header{
+  height: 150px;
+  margin-top: -8px;
+  line-height: 15px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.list-judul h5{
+  font-family: roboto-light;
+}
+.btn-flat{
+  text-transform: capitalize;
+  background: #9fd000;
+  color: white;
+}
+.btn-flat:hover{
+  background: #9fd000;
+}
+
+
+
+/*Footer*/
+#full-footer{
+  background: rgb(244, 244, 244);
+}
+.footer-text{
+  color: #009688;
+}
+.footer-text:hover{
+  color: rgba(0, 150, 136, 0.64);
+}

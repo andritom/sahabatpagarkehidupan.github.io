@@ -1,0 +1,10 @@
+List Kategori
+1. Motivasi Percintaan              .
+2. Motivasi Karir                   .
+3. Motivasi Pendidikan              .
+4. Motivasi Spiritual               .
+5. Motivasi Pengembangan Diri       .
+6. Motivasi Keuangan dan Bisnis     .
+Di landing page semua kategori di cantumin + Video terbau + Forum
+
+^Done^

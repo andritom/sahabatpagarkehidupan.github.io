@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pagar Kehidupan - Mengawali kehidupan dengan pikiran yang benar</title>
+    <link rel="shotcut icon" href="../assets/icon/favicon.PNG">
+    <link rel="stylesheet" href="../assets/materialize/css/materialize.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/font-awesome.css"> <!--Font Awesome-->
+    <link rel="stylesheet" href="../assets/fontawesome/fonts/fontawesome-webfont.woff"> <!--Font Awesome-->
+    <link rel="stylesheet" href="../assets/fontawesome/fonts/fontawesome-webfont.woff2"> <!--Font Awesome-->
+    <link rel="stylesheet" href="../assets/fontawesome/fonts/fontawesome-webfont.ttf"> <!--Font Awesome-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style media="screen">
+      @media only screen and (max-width:600px) {
+        header{
+          margin-bottom: 50px;
+        }
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <nav id="navigasi">
+      <div class="nav-wrapper">
+        <div class="container-nav">
+          <a href="#" class="brand-logo center black-text" style="font-family:roboto-light">Admin Panel</a>
+          <a href="#" data-activates="mobile-menu" class="button-collapse">
+            <i class="material-icons left icon-menu"><img src="../assets/icon/ic_menu_black_24dp.png" alt="menu" class="responsive-img"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Isi side nav -->
+    <ul id="mobile-menu" class="side-nav fixed">
+      <li class="menu-side-nav"><h4 style="text-align:center"><img src="../assets/icon/pagarkehidupan.png" alt="menu" class="responsive-img" width="70%"></h4></li>
+      <ul class="collapsible" data-collapsible="accordion">
+      <li><a href="#!"><i class="fa fa-home teal-text"></i>Dashboard</a></li>
+      <li><a href="#!"><i class="fa fa-youtube-play red-text"></i>Video</a></li>
+      <li><a href="#!"><i class="fa fa-users orange-text"></i>Users</a></li>
+      <li><a href="#!"><i class="fa fa-comments green-text"></i>Forum</a></li>
+      <li><a href="#!"><i class="fa fa-book cyan-text"></i>Cerita</a></li>
+      <li class="divider"><a href="#!"></a></li>
+      <li><a href="#!"><i class="fa fa-user brown-text"></i>Admin</a></li>
+      <li><a href="#!"><i class="fa fa-power-off red-text"></i>Logout</a></li>
+      </ul>
+    </ul>
+
+    <br><br><br>
+
+    <!-- header -->
+    <div class="row">
+      <div class="col s12 m10 offset-m2">
+        <header class="col s12 m9">
+          <div class="container-nav">
+            <h4 style="font-family:roboto-light">Dashboard Admin (empty)</h4>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m9 offset-m3">
+
+        </button>
+      </div>
+    </div>
+
+
+
+
+    <script src="../assets/jquery.min.js"></script>
+    <script src="../assets/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.button-collapse').sideNav({
+        menuWidth: 240, // Default is 240
+        edge: 'left', // Choose the horizontal origin
+        closeOnClick: false // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      });
+      $('.collapsible').collapsible({
+         accordion : true,
+       });
+      $('select').material_select();
+    });
+    </script>
+  </body>
+</html>
